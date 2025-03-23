@@ -29,12 +29,12 @@ export const ExitModal = () => {
     <Dialog open={isOpen} onOpenChange={close}>
       <DialogContent className="max-w-md">
         <DialogHeader>
-          <div className="flex items-center w-full justify-center mb-5">
+          <div className="flex items-center w-full justify-center mb-1">
             <Image
-              src="/duolingoicon.svg"
-              alt="Mascot" //??
-              height={80}
-              width={80}
+              src="/lingo-sad.svg"
+              alt="LingoSad" //??
+              height={130}
+              width={130}
             />
           </div>
           <DialogTitle className="text-center font-bold text-2xl">
